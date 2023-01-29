@@ -19,7 +19,7 @@ print(result)
 fig, ax1 = plt.subplots()
 fig.set_size_inches(20, 11)
 
-# #Plot complete lambda3 
+# #Plot lambda3 
 ax1.plot(df['Timestamp'],df['Lambda3'])
 
 plt.xticks(np.arange(1,2064, step=25), size='small')                            # ax.xaxis.set_major_locator(ticker.MultipleLocator(25))
