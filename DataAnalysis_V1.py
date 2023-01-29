@@ -4,7 +4,7 @@ import numpy as np
 
 
 #Import document#
-url = 'https://raw.githubusercontent.com/ArZeMa201/Experiment-2023_01_05/main/Data17012023%20-Lambda.txt'
+url = 'https://raw.githubusercontent.com/ArZeMa201/Experiment-2023_01_05/main/Data17012023_Lambda.txt'
 df = pd.read_csv(url, delimiter = "\t")
 
 
